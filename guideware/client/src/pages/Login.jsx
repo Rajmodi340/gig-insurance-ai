@@ -43,8 +43,7 @@ const Login = () => {
     setFormData((prev) => ({
       ...prev,
       [name]: value,
-      [email]:value,
-      [password]:value
+      
     }))
     if (errors[name]) {
       setErrors((prev) => ({
